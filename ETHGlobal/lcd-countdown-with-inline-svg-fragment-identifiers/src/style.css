@@ -1,0 +1,36 @@
+.countdown-wrapper {
+	background-color: #000;
+	height: 100vh;
+}
+.countdown-container {
+	color: #fff;
+	background-color: #000;
+	padding: 35px;
+	border: 7px solid #ccc;
+	border-radius: 35px;
+}
+/* a countdown set is a group of digits (e.g. days, minutes, hours, or seconds) and related separators/screen reader text */
+/* 
+.countdown-set-seconds {
+	display: none;
+} 
+*/
+.countdown-digit,
+.countdown-separator {
+	width: 60px;
+	height: 120px;
+	margin: 0 5px;
+}
+.countdown-separator {
+	width: 10px;
+	overflow: hidden;
+}
+.countdown-digit-image {
+	width: 100%;
+	height: 100%;
+}
+.countdown-separator .countdown-digit-image {
+	width: 60px;
+	margin: 0 -25px;
+}
+
